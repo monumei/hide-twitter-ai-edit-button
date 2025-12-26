@@ -15,7 +15,7 @@ If you have the `dist` folder:
 3. Click **Load unpacked**.
 4. Select the `dist` folder.
 
-Or you can download the pre-built version from the [releases page](https://github.com/yonmiru/hide-x-grok-edit-button/releases).
+Or you can download the pre-built version from the [releases page](https://github.com/monumei/hide-x-grok-edit-button/releases).
 
 ### For Developers (Build from Source)
 

@@ -1,0 +1,14 @@
+/* Target by the user provided class */
+body.hide-grok-enabled .r-c97pre,
+
+/* Target by Aria Label (More robust) */
+body.hide-grok-enabled [aria-label="Grok"],
+body.hide-grok-enabled [href="/i/grok"],
+
+/* Edit button target (More robust) */
+body.hide-grok-enabled [aria-label="Subscribe to Premium"], /* Sometimes this is the button they want to hide if it's promoting edit? Or maybe "Edit" refers to something else. */
+body.hide-grok-enabled [data-testid="GrokDrawer"],
+body.hide-grok-enabled a[href="/compose/grok"]
+{
+  display: none !important;
+}

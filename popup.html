@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hide Edit Image Button</title>
+    <link rel="stylesheet" href="/src/popup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>F*ck AI</h1>
+        <div class="status-indicator"></div>
+      </header>
+
+      <main>
+        <div class="control-group">
+          <div class="control-label">
+            <span class="label-text">Remove Edit Image Button</span>
+            <span class="label-desc"
+              >Removes the Edit Image button from your tweet.</span
+            >
+          </div>
+          <label class="toggle-switch">
+            <input type="checkbox" id="hideToggle" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </main>
+
+      <footer>
+        <p>Clean up your Twitter experience cuz F*ck AI.</p>
+      </footer>
+    </div>
+    <script type="module" src="/src/popup.ts"></script>
+  </body>
+</html>

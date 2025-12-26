@@ -1,8 +1,8 @@
-# Hide X Grok Edit Button
+# Hide Twitter AI Edit Button
 
 **F\*ck AI. Keep your twitter clean.**
 
-Tired of Twitter shoving Grok down your throat when they suggest to edit your image? This extension purges that annoying "Edit Image" button from your tweet.
+Tired of Twitter shoving AI down your throat when they suggest to edit your image? This extension purges that annoying "Edit Image" button from your tweet.
 
 ## How to Install
 
@@ -31,7 +31,7 @@ Or you can download the pre-built version from the [releases page](https://githu
 3. **Build**:
 
    ```bash
-   npm run build
+   bun run build
    ```
 
 4. **Load Extension**:

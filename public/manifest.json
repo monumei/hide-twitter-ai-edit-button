@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Hide X Edit Button",
+  "name": "Hide X Edit Image Button",
   "version": "1.1",
-  "description": "Toggle visibility of Edit Button on X",
+  "description": "Toggle visibility of Edit Image Button",
   "permissions": ["storage", "activeTab", "scripting"],
   "action": {
     "default_popup": "popup.html",
